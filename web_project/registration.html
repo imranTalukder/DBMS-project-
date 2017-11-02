@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <title>Registration</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
+		<link rel="stylesheet" href="Registration.css" Type="text/css" />	
+	</head>
+    <body>
+	<div class="main">
+	    <ul class="menu">
+		    <h1 class="dp">CSE Virtual Assistant<span style="display:inline-block; width: 600px;"></span><input type="text"><input type="submit" value="Search"></h1>
+		    <br><br>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="registration.html">Registration</a></li>
+			<li><a href="first.html">Form Fill-up</a></li>
+			<li>
+			    <div class="dropdown">
+			    <button class="dropbtn">Payment</button>
+			        <div class="dropdown-content">
+                        <a href="#">Dept. Development</a>
+                        <a href="#">Semester Fee</a>
+                        <a href="#">Improvement</a>
+                    </div>
+				<div>
+			</li>
+			<li><a href="login.html">Login</a></li>
+			<li><a href="first.html">Admit download</a></li>
+			<li><a href="first.html">FAQ</a></li>
+		    
+		</ul>
+		<form action="registration.php" method="post" enctype="multipart/form-data"">
+		<table class="reg">
+		    <tr>
+			    <td><br>Your first name:<span style="display:inline-block; width: 60px;"></span> <input type="text" name="fname"></td>
+		    </tr>
+			<tr>
+			    <td><br>Your last name :<span style="display:inline-block; width: 60px;"></span> <input type="text" name="lname"></pre></td>
+			</tr>
+			<tr>
+			    <td><br>Session      :<span style="display:inline-block; width: 108px;"></span>
+				<select name="session">
+				    <option selected></option>
+                    <option>2013-14</option>
+                    <option>2014-15</option>
+                    <option>2015-16</option>
+				    <option>2016-17</option>
+				
+                </select>
+				</td>
+			</tr>
+			<tr>
+			    <td><br>Your ID:<span style="display:inline-block; width: 108px;"></span> <input type="text" name="id"></td>
+			</tr>
+			<tr>
+			    
+			    <td><br>Gender:<br><br><input type="radio" name="sex">Male <input type="radio" name="sex">Female</td>
+			</tr>
+			<tr>
+			    <td><span style="display:inline-block; width: 220px;"></span><input type="submit"  value="Submit"></td>
+			</tr>
+		</table>
+		</form>
+	</div>
+	</body>
+</html>
